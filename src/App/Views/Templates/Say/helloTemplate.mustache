@@ -1,0 +1,12 @@
+<h4>PARTIAL MUSTACHE</h4>
+
+{{#items}}
+    <p>{{name}}</p>
+    {{#hasProducts}}
+        <ul>
+            {{#products}}
+                <li>ID: {{id}}</li>
+            {{/products}}
+        </ul>
+    {{/hasProducts}}
+{{/items}}

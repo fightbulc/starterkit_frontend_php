@@ -1,0 +1,12 @@
+{
+    "require": {
+        "simplon/helper": "0.7.*",
+        "simplon/frontend": "0.6.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    }
+}
