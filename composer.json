@@ -1,4 +1,14 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fightbulc/simplon_helper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fightbulc/simplon_frontend"
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "simplon/helper": "dev-develop",
