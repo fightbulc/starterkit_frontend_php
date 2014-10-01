@@ -2,6 +2,6 @@
 
 namespace App;
 
-class Context
+abstract class Context
 {
 }
