@@ -1,7 +1,7 @@
 {
     "require": {
-        "simplon/helper": "0.7.*",
-        "simplon/frontend": "0.6.*"
+        "simplon/helper": "dev-develop",
+        "simplon/frontend": "dev-develop"
     },
 
     "autoload": {

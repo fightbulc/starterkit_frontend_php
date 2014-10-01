@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "db5edd090da781db8af0fe8887456c75",
+    "packages": [
+        {
+            "name": "simplon/frontend",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fightbulc/simplon_frontend.git",
+                "reference": "386437f3540a2465125d55eea5bff6c7313386b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fightbulc/simplon_frontend/zipball/386437f3540a2465125d55eea5bff6c7313386b9",
+                "reference": "386437f3540a2465125d55eea5bff6c7313386b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Simplon\\Frontend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tino Ehrich",
+                    "email": "opensource@efides.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Bootstrap Frontend Library",
+            "homepage": "https://github.com/fightbulc/simplon_frontend",
+            "keywords": [
+                "controller",
+                "fast",
+                "frontend",
+                "lightweight",
+                "mustache",
+                "router",
+                "templates"
+            ],
+            "time": "2014-09-14 12:54:31"
+        },
+        {
+            "name": "simplon/helper",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fightbulc/simplon_helper.git",
+                "reference": "34b06db0dcc82eacd4394ed3e8855e8c76229c7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fightbulc/simplon_helper/zipball/34b06db0dcc82eacd4394ed3e8855e8c76229c7e",
+                "reference": "34b06db0dcc82eacd4394ed3e8855e8c76229c7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Simplon\\Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tino Ehrich",
+                    "email": "opensource@efides.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Helpers for recurring tasks.",
+            "homepage": "https://github.com/fightbulc/simplon_helper",
+            "keywords": [
+                "helper",
+                "strings",
+                "value objects"
+            ],
+            "time": "2014-09-21 18:39:50"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "simplon/helper": 20,
+        "simplon/frontend": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
